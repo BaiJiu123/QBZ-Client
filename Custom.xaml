@@ -1,0 +1,67 @@
+<!--客户端构建者：Sakura_BaiJiu-->
+<!--操你妈的装挂或者其他什么违法的东西你就原地死妈-->
+<local:MyCard Title="启动器更新日志" Margin="0,0,0,15" >
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                   Text="QBZ Client" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="1.Forge 版本紧急修复，现已可以成功启动" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="2.更换启动IP地址" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="QBZ Cloud 全体运营组" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="向你表示真诚的感谢" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="感谢您能在百忙之余中来游玩QBZ Cloud" />
+        <local:MyHint Margin="0,0,0,4" IsWarn="False"
+                   Text="客户端版本：0.0.4" /> 
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="QBZ Cloud | 工具导航"  Margin="0,0,0,15" CanSwap="true" IsSwaped="True" >
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" >
+        <local:MyButton Margin="0,8,20,10" Width="150" Height="35" ColorType="Highlight" HorizontalAlignment="left"
+                 Text="进入QBZ Cloud(Forge)" EventType="启动游戏" EventData="QBZ Cloud Client丨Forge|f.hmmc.cc:26127" ToolTip="服务器 IP：f.hmmc.cc:26127" />
+        <local:MyButton Margin="0,8,20,10" Width="150" Height="35" ColorType="Highlight" HorizontalAlignment="left"
+                 Text="进入QBZ Cloud(Fabric)" EventType="启动游戏" EventData="QBZ Cloud Client丨Fabric|f.hmmc.cc:26127" ToolTip="服务器 IP：f.hmmc.cc:26127" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" >
+        <local:MyButton Margin="0,8,20,10" Width="150" Height="35"  Padding="13,0,13,0" ColorType="Red" HorizontalAlignment="center"
+                   Text="加入我们的官方群" EventType="打开网页" EventData="https://jq.qq.com/?_wv=1027 &amp; k=zwemVyLP" />
+            <local:MyButton Margin="0,8,20,10" Width="150" Height="35"  Padding="13,0,13,0" ColorType="Highlight" HorizontalAlignment="left"
+                   Text="赞助我们" EventType="打开网页" EventData="https://zoufk.com/links/575165E5" />
+        </StackPanel>
+        <Image Height="300" HorizontalAlignment="center" Source="https://img9.vilipix.com/picture/pages/regular/2022/01/27/19/26/96029533_p0_master1200.jpg?x-oss-process=image/resize,m_fill,w_1000" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="QBZ Cloud | 疑难解答可询问时间"  Margin="0,0,0,15" CanSwap="true" IsSwaped="True" >
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                   Text="Sakura_BaiJiu-可询问时间:周五晚-周日上午" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="青苓-可询问时间:未知" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="烛龙-可询问时间:几乎每天晚上" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="大佐-可询问时间:全天晚上" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="可询问事件:基本全部" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="来自Sakura_BaiJiu的百宝箱" CanSwap="true" IsSwaped="true" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" >
+            <local:MyButton Margin="0,8,20,10" Width="150" Height="35" HorizontalAlignment="center"
+                   Text="刷新主页" EventType="刷新主页"  />
+            <local:MyButton Margin="0,8,20,10" Width="150" Height="35" HorizontalAlignment="center"
+                   Text="打开内存释放" EventType="打开文件" EventData="NCQL.exe"  />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" >
+                <local:MyButton Margin="0,8,20,10" Width="150" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Red"
+                   Text="添加时间服务器|教程" EventType="弹出窗口" EventData="教程丨同步时间服务器|先点击[添加时间服务器(文件)]\n\n当添加好注册表后，找到以下路径\n\n控制面板\时钟和区域\日期和时间\Internet时间\更改设置\n\n然后在服务器列表一个一个试就行\n\n其中必有有用的服务器\n\n选好服务器时再点击立即更新" />
+                <local:MyButton Margin="0,8,20,10" Width="150" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Red"
+                   Text="添加时间服务器|文件" EventType="打开文件" EventData="时间同步.reg" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
